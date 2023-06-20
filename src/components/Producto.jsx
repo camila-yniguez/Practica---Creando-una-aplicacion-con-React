@@ -6,46 +6,71 @@ import reloj4 from "../assets/img/reloj4.jpg";
 function Producto(params) {
       return (
             <main class="productos">
-                  <h2 id="productos">Nuestros productos</h2>
+                  <h2 id="productos">Nuestros servicios</h2>
                   <article>
                         <img src={reloj1} alt="Reloj" />
-                        <h2>Lorem, ipsum.</h2>
+                        <h2>INTEGRACIÓN DE TODOS SUS DOCUMENTOS DIGITALES Y EN PAPEL</h2>
                         <p>
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni mollitia blanditiis natus dicta error, cum alias ipsam libero odio impedit, fuga at dolore voluptatem illum
-                              pariatur cupiditate fugit, ullam amet?
+                        Toda la documentación de su empresa tanto la fisica (papeles) como la documentacion digital puede integrarse en un único repositorio con accesibilidad por parte de toda su empresa o las personas designadas a través de usuario y contraseña.
+                        Nuestra plataforma permite modelar cualquier lógica documental de negocio.
                         </p>
-                        <h2>Precio: $450</h2>
-                        <button>Ver más</button>
+                        <button>Consulta más info</button>
                   </article>
                   <article>
                         <img src={reloj2} alt="Reloj" />
-                        <h2>Lorem, ipsum.</h2>
+                        <h2>GESTIÓN DE PROYECTOS</h2>
                         <p>
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni mollitia blanditiis natus dicta error, cum alias ipsam libero odio impedit, fuga at dolore voluptatem illum
-                              pariatur cupiditate fugit, ullam amet?
+                        Relevamiento sobre requisitos y necesidades del cliente para la ejecución del proyecto, clasificación,loteo y codificación de expedientes, cajas, archivos etc.
+                        Asesoría
+                        Seguridad y confidencialidad
+                        Alquiler de equipos
+                        Destrucción de Documentos
                         </p>
-                        <h2>Precio: $650</h2>
-                        <button>Ver más</button>
+                        <button>Consulta más info</button>
                   </article>
                   <article>
                         <img src={reloj3} alt="Reloj" />
-                        <h2>Lorem, ipsum.</h2>
+                        <h2>FORMATOS DE IMAGENES</h2>
                         <p>
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni mollitia blanditiis natus dicta error, cum alias ipsam libero odio impedit, fuga at dolore voluptatem illum
-                              pariatur cupiditate fugit, ullam amet?
+                        PDF(Portable Document Format) Imágenes e imágenes sobre texto
+                        TIF y TIFF G4 de alta compresión
+                        JPG y JPEG 2000
+                        Documento de texto
+                        Documento HTML y XML
+                        Expediente de Base de Datos (CVS y DBF)
                         </p>
-                        <h2>Precio: $945</h2>
-                        <button>Ver más</button>
+                        <button>Consulta más info</button>
                   </article>
                   <article>
                         <img src={reloj4} alt="Reloj" />
-                        <h2>Lorem, ipsum.</h2>
+                        <h2>CONVERSIÓN DE IMAGEN A TEXTO</h2>
                         <p>
-                              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni mollitia blanditiis natus dicta error, cum alias ipsam libero odio impedit, fuga at dolore voluptatem illum
-                              pariatur cupiditate fugit, ullam amet?
+                        Procesamiento de OCR (Recononocimiento Óptico de Caracteres)
+                        Reconocimiento de texto mejorado, Indexación del texto producto del OCR para fácil localización en las imágenes.
                         </p>
-                        <h2>Precio: $999</h2>
-                        <button>Ver más</button>
+                        <button>Consulta más info</button>
+                  </article>
+                  <article>
+                        <img src={reloj4} alt="Reloj" />
+                        <h2>EQUIPO DE TRABAJO</h2>
+                        <p>
+                        Lider de proyecto
+                        Equipo para la preparación de los Documentos
+                        Notebook y Equipos Portatiles de Captura de Imágenes
+                        Equipo de rearmado de Expedientes
+                        Equipo de Indexación y captura de Datos
+                        Especialista en Gestión de la información
+                        </p>
+                        <button>Consulta más info</button>
+                  </article>
+                  <article>
+                        <img src={reloj4} alt="Reloj" />
+                        <h2>ENTREGABLES</h2>
+                        <p>
+                        Almacenamiento de entregas en (CD, DVD, Pendrive, disco externo, etc)
+                        Acceso web y alojamiento en nuestros Servidores
+                        Gestión de Datos Corporativa a través de TERADOC Plataforma de Gestión Documental                        </p>
+                        <button>Consulta más info</button>
                   </article>
             </main>
       );

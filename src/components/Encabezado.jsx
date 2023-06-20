@@ -1,11 +1,11 @@
 import React from "react";
-import logo from "../assets/img/logo-DH.png";
+import logo from "../assets/img/logo.png";
 function Encanezado() {
       return (
             <header class="encabezado">
                   <nav id="logo">
                         <a href="#">
-                              <img src={logo} alt="Logo Digital House" />
+                              <img src={logo} alt="Logo Punto 21 Digital" />
                         </a>
                   </nav>
                   <nav id="opciones">
